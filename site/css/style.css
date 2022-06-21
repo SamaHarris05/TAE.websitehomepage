@@ -1,0 +1,660 @@
+/* global styles */
+* {
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+
+
+/**** header code ****/
+header div {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/* header logo image code */
+
+header{
+    background-position: left;
+    background-size: contain;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ header .img{
+    border-image-width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    background-size: contain;
+    padding-left: 100px;
+}
+
+header figure {
+
+    height: 250px;
+    border-image-width: 300px;
+
+    height: 120px;
+    width: auto;
+
+    width: 750px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    float: center;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-left: 300px;
+}
+
+/* header bar code */
+
+header li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover {
+    color:#443355;
+    text-decoration: none;
+}
+
+header h3{
+    font-family: cursive;
+    text-align: center;
+    text-decoration-color: black;
+}
+
+header nav li{
+    display:inline;
+    margin-left: 90px;
+}
+
+header nav ul{
+    list-style-type: none;
+    background-color:#a89595;
+}
+
+header div{
+    display:inline;
+}
+
+/**** footer code ****/
+
+footer {
+    background-color: #a89595;
+    color: white;
+    text-align: center;
+}
+
+footer h6, footer p, footer a {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+footer h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+footer h6 a {
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+/* MY-FIRSTS PAGE CODE */
+
+#MYFIRSTS {
+    background-color: #443355;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    background-image: linear-gradient(rgba(70, 50, 80, 0.5), rgba(70, 50, 80, 0)), url(pexels-steve-johnson-1509534.jpg);
+    mix-blend-mode: lighten;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*
+#MYFIRSTS a{
+    background-color: #443355;
+    padding-top: 200px;
+    padding-bottom: 210px;
+    color: white;
+    background-image: url(IMG_2177.jpg);
+    background-position: center center;
+    background-size: contain;
+}
+*/
+
+#MYFIRSTS h3{
+
+    font-family: blakely, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 130px;
+
+    height: 20px;
+    padding-top: 100px;
+    padding-left: 450px;
+    vertical-align: middle;
+    text-emphasis: none;
+    
+}
+
+#MYFIRSTS h2{
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 30px;
+    font-style: normal;
+    font-size: 30px;
+
+    height: 20px;
+    padding-top: 100px;
+    padding-left: 450px;
+    vertical-align: middle;
+    text-emphasis: none;
+    width:fit-content;
+    
+}
+
+.img #MYFIRSTS{
+    padding-top: 200px;
+    padding-bottom: 210px;
+    background-position: center;
+    background-size: cover;
+}
+
+#MYFIRSTS .button {
+    transition-duration: 0.4s;
+
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #a89595;
+    color: black;
+    position: absolute;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.884);
+
+
+    margin-top: 200px;
+    margin-left: 600px;
+  
+}
+
+#MYFIRSTS .button:hover {
+    background-color: antiquewhite;
+    color: #443355;
+}
+
+section div{
+    height: 500px;
+    width: 1200px;
+}
+
+#MF-PANEL {
+    overflow: hidden;
+}
+
+#MF-PANEL figure {
+    width: 260px;
+    height: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+#MF-PANEL div figcaption{
+    font-size: 25px;
+    text-align: center;
+
+    padding-top: 90px;
+}
+
+#MF-PANEL div{
+    height: 600px;
+    width: 1200px;
+}
+
+#MF-PANEL{
+    background-color: #6E5F59;
+}
+
+
+/***** HEADER-IMAGE CODE *****/
+
+.img #header-image{
+    padding-top: 200px;
+    padding-bottom: 210px;
+    background-position: center;
+    background-size: cover;
+}
+
+#header-image {
+    background-color: #443355;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    background-image: linear-gradient(rgba(70, 50, 80, 0.5), rgba(70, 50, 80, 0)), url(image-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#header-image h1, h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+#header-image h1{
+    font-weight: normal;
+    font-size: 60px;
+    padding-left: 160px;
+}
+
+#header-image h2{
+    font-size: 30px;
+    font-weight: normal;
+
+    height: 20px;
+    padding-top: 50px;
+    padding-left: 600px;
+    text-align: center;
+    text-emphasis: none;
+    width:fit-content;
+}
+
+#header-image .button {
+    transition-duration: 0.4s;
+
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #a89595;
+    color: black;
+    position: absolute;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.884);
+
+
+    margin-top: 100px;
+    margin-left: 600px;
+  
+}
+
+#header-image .button:hover {
+    background-color: antiquewhite;
+    color: #443355;
+}
+
+#header-image div{
+    padding-left: 25px;
+}
+/***** INTRODUCTION CODE *****/
+
+#Introduction h3{
+    padding-top: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+#Introduction div{
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-bottom: 50px;
+    height: 300px;
+    
+}
+
+#Introduction h2{
+    font-style: italic;
+    font-weight: normal;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+#Introduction li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#Introduction nav ul{
+    text-decoration: none;
+    padding-left: 100px;
+    
+}
+/***** GOGGLES SECTION CODE *****/
+#goggles h2{
+    padding-right: 140px;
+    font-style: italic;
+}
+
+#goggles figure img{
+
+    float: left;
+
+    position: absolute;
+    border-image-width: 200px;
+    height: 330px;
+    left: 112px;
+    padding-top: 50px;
+}
+
+#goggles p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#goggles div{
+    width: 800px;
+    padding-top: 70px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+/***** swim-cap SECTION CODE *****/
+
+#swim-cap h2{
+    padding-right: 225px;
+    font-style: italic;
+}
+
+#swim-cap figure img{
+
+    float: left;
+
+    position: absolute;
+    border-image-width: 200px;
+    height: 224px;
+    left: 280px;
+}
+
+#swim-cap p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#swim-cap div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+/***** swim-toys SECTION CODE *****/
+
+#swim-toys h2{
+    padding-right: 210px;
+    font-style: italic;
+}
+
+#swim-toys figure img{
+
+    float: left;
+
+    height: 150px;
+    width: auto;
+    
+    position: absolute;
+    border-image-width: 100px;
+    left: 270px;
+    padding-top: 50px;
+}
+
+#swim-toys p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#swim-toys div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+/***** swim-bag SECTION CODE *****/
+#swim-bag h2{
+    padding-right: 225px;
+    font-style: italic;
+}
+
+#swim-bag figure img{
+    
+
+    float: left;
+
+    height: 250px;
+    width: auto;
+    
+    position: absolute;
+    border-image-width: 100px;
+    left: 300px;
+    padding-top: 5px;
+}
+
+#swim-bag p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#swim-bag div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    height: 300px;
+}
+
+/***** swim-board SECTION CODE *****/
+#swim-board h2{
+    padding-right: 200px;
+    font-style: italic;
+}
+
+#swim-board figure img{
+    float: left;
+    transform: rotate(340deg);
+
+    position: absolute;
+    border-image-width: 200px;
+    height: 224px;
+    left: 350px;
+    top: 2770px;
+}
+
+#swim-board p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#swim-board div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    height: 300px;
+}
+
+/***** fruits SECTION CODE *****/
+#fruits h2{
+    padding-right: 260px;
+    font-style: italic;
+}
+
+#fruits figure img{
+    float: left;
+
+    position: absolute;
+    border-image-width: 200px;
+    height: 474px;
+    left: 280px;
+    top: 2960px;
+}
+
+#fruits p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#fruits div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    height: 300px;
+}
+
+/***** towel SECTION CODE *****/
+#towel h2{
+    padding-right: 260px;
+    font-style: italic;
+}
+
+#towel figure img{
+
+    float: left;
+    position: absolute;
+    border-image-width: 500px;
+    height: 444px;
+    left: 270px;
+    top: 3300px;
+    
+}
+
+#towel p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#towel div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    height: 300px;
+}
+
+
+/***** flippers SECTION CODE *****/
+#flippers h2{
+    padding-right: 240px;
+    font-style: italic;
+}
+
+#flippers figure img{
+
+    float: left;
+    position: absolute;
+    border-image-width: 400px;
+    height: 300px;
+    left: 312px;
+    top: 3675px;
+}
+
+#flippers p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#flippers div{
+    width: 800px;
+    padding-left: 350px;
+    padding-bottom: 90px;
+    height: 200px;
+}
+
+/***** whistle SECTION CODE *****/
+#whistle h2{
+    padding-right: 250px;
+    font-style: italic;
+}
+
+#whistle figure img{
+
+    float: left;
+
+    position: absolute;
+    border-image-width: 400px;
+    height: 120px;
+    left: 320px;
+    padding-top: 50px;
+    
+}
+
+#whistle p{
+    font-weight: normal;
+
+    position: absolute;
+    width: 451px;
+    height: 330px;
+    left: 640px;
+}
+
+#whistle div{
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-bottom: 90px;
+    height: 300px;
+}
